@@ -1,0 +1,89 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none !important;
+    transition: .2s linear;}
+
+
+    #signUp_box{
+        display: none;
+    }
+
+
+    .sign_box{
+        height: 100vh !important;
+        background-color: rgb(241, 241, 241);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .box_box{
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 0 0 15px 1px blueviolet;
+
+    }
+
+    .input_group i{
+        color: blueviolet;
+    }
+
+    .input_group input{
+        border: none;
+        border-bottom: 2px solid blueviolet;
+        color: blueviolet;
+        background-color: transparent;
+        padding: 10px 0px;
+        width: 280px;
+    }
+
+    ::placeholder{
+        color: blueviolet;
+    }
+
+    .recoverd a{
+        text-decoration: none !important;
+        color: gray;
+        float: right;
+    }
+    .recoverd a:hover{
+        text-decoration: underline !important;
+    }
+
+
+    .icons i{
+        border: 1px solid blueviolet;
+        color: blueviolet;
+    }
+    .icons i:hover{
+        background: blueviolet;
+        color: #fff;
+    }
+
+    .links button {
+        color: blueviolet;
+        background-color: transparent;
+        border: none;
+        float: right;
+    }
+    .links button:hover{
+        text-decoration: underline;
+    }
+
+    .sign_btn {
+        font-weight: 600 !important;
+        width: 100%;
+        background-color: blueviolet !important;
+        border-radius:5rem !important;
+        color: #fff !important;
+    }
+    .sign_btn:hover{
+        background-color:#fff !important;
+        color: blueviolet !important;
+        border: 1px solid blueviolet !important;
+    }
